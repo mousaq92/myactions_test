@@ -5,7 +5,7 @@ set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
 
 set ::env(CLOCK_PERIOD) "10.000"
 set ::env(CLOCK_PORT) "clk"
-set ::env(SYNTH_STRATEGY) "AREA 3"
+#set ::env(SYNTH_STRATEGY) "AREA 3"
 
 set ::env(FP_PIN_ORDER_CFG) $::env(DESIGN_DIR)/pin_order.cfg
 
